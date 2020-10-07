@@ -3,8 +3,6 @@
 #include <unistd.h>
 #include <string.h>
 
-/* TODO: FORK A NEW PROCESS except EXITPROGRAM */
-
 /* Exit the program */
 void exitProgram(int status) {
   exit(status);
